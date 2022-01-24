@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "net.orandja.holycube6.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "DebugStickItemMixin",
+    "ServerPlayerInteractionManagerMixin",
+    "ShapedRecipeSerializerMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

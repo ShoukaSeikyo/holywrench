@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "holywrench",
+  "version": "1.0.0",
+  "name": "HolyWrench",
+  "description": "Mod Officiel de la Saison 6 de HolyCube.",
+  "authors": [
+    "Olivier \"ShoukaSeikyo\" Martinez"
+  ],
+  "license": "CC BY-NC-SA",
+  "icon": "assets/holywrench/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "net.orandja.holycube6.HolyWrench"
+      }
+    ]
+  },
+  "mixins": [
+    "holywrench.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*",
+    "fabric-language-kotlin": ">=1.6.1+kotlin.1.5.10"
+  }
+}
